@@ -5,7 +5,7 @@ st.set_page_config(page_title="Regulatory RAG Demo", layout="wide")
 st.title("Regulatory RAG Prototype — eCTD Scaffold & QA")
 st.markdown("Upload a small SOP or dossier, ingest, ask RAG Q&A, generate scaffold.")
 with st.sidebar:
-    uploaded = st.file_uploader("Upload PDF or TXT", type=["pdf","txt"])
+    uploaded = st.file_uploader("Upload TXT file", type=["txt"])
     if st.button("Ingest"):
         if uploaded:
             try:
