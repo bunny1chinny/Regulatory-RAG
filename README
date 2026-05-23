@@ -6,7 +6,4 @@ git branch -M main
 git remote add origin https://github.com/bunny1chinny/Regulatory-RAG.git
 git push -u origin main
 
-git branch -m main Master
-git fetch origin
-git branch -u origin/Master Master
-git remote set-head origin -a
+
